@@ -2,7 +2,7 @@
 
 ## &#x1F4D8; About project
 
-### The project is simple, so I will not write much.
+### Where and what is located (files, folders).
 
 -   File "ActiveBox.psd" - Layout of the site from which I wrote the code
 -   Folder "src" - project's source
