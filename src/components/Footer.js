@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFacebookF, faTwitter, faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
+import { faHeart } from "@fortawesome/free-solid-svg-icons";
 
 class Footer extends Component {
     render() {
@@ -38,7 +39,8 @@ class Footer extends Component {
                     </div>
                     <div className="footer__rights">
                         <p>
-                            Copyright © 2015 ActiveBox. All Rights Reserved Made with <i class="fas fa-heart"></i>{" "}
+                            Copyright © 2015 ActiveBox. All Rights Reserved Made with{" "}
+                            <FontAwesomeIcon className="font-awesome-icon" icon={faHeart} />
                             <span>by Kamal Chaneman</span>
                         </p>
                     </div>
