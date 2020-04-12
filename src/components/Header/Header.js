@@ -6,10 +6,13 @@ class Header extends Component {
         window.addEventListener("scroll", () => {
             const isTop = window.scrollY > 0;
             const header = document.querySelector(".header");
+            const bugerBtnFix = document.querySelector(".burger-btn");
             if (isTop) {
                 header.classList.add("header--fixed");
+                bugerBtnFix.classList.add("burger-btn--fixed");
             } else {
                 header.classList.remove("header--fixed");
+                bugerBtnFix.classList.remove("burger-btn--fixed");
             }
         });
     }
