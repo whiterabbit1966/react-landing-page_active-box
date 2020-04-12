@@ -56,6 +56,8 @@
 Intro modal window
 ======================*/
 .introModal {
+    display: none;
+
     text-align: center;
     margin: 0 auto;
     transform: translateY(-100vh);
@@ -83,8 +85,8 @@ Intro modal window
     .close-modal {
         font-size: 35px;
         color: red;
-
-        cursor: pointer;
+        background: transparent;
+        border: none;
     }
 }
 

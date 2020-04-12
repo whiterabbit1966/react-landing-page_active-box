@@ -11,9 +11,9 @@ class IntroModal extends Component {
         return (
             <div className="introModal">
                 <div>Welcome</div>
-                <div className="close-modal" onClick={this.state.closeModal}>
+                <button className="close-modal" onClick={this.state.closeModal}>
                     Close
-                </div>
+                </button>
             </div>
         );
     }

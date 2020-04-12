@@ -58,3 +58,12 @@
         }
     }
 }
+
+@media (orientation: landscape) {
+    .section-intro {
+        height: 200vh;
+    }
+    .section-intro__content {
+        padding-top: 200px;
+    }
+}
