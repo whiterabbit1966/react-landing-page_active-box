@@ -50,14 +50,6 @@
     }
 }
 
-// @media (max-width: 930px) {
-//     .testimonials__avatar {
-//         img {
-//             width: 50%;
-//         }
-//     }
-// }
-
 @media (max-width: 769px) {
     .section-testimonials {
         width: 100%;
@@ -116,6 +108,14 @@
     .testimonials__avatar {
         img {
             width: 360px !important;
+        }
+    }
+}
+
+@media (max-width: 321px) {
+    .testimonials__avatar {
+        img {
+            width: 320px !important;
         }
     }
 }
