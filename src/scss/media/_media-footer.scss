@@ -16,3 +16,23 @@
         }
     }
 }
+
+@media (max-width: 415px) {
+    .footer__rights {
+        font-size: 20px;
+
+        p {
+            width: 414px;
+        }
+    }
+}
+
+@media (max-width: 361px) {
+    .footer__rights {
+        font-size: 18px;
+
+        p {
+            width: 360px;
+        }
+    }
+}

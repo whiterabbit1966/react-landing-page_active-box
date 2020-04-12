@@ -1,0 +1,24 @@
+@media (max-width: 1100px) {
+    .container-works {
+        padding: 0 25px;
+    }
+
+    .section-works__content {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 0 auto;
+    }
+    .section-works__content-row-top {
+        display: flex;
+        flex-direction: column;
+    }
+    .section-works__content-row-bot {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .works__item {
+        width: 100%;
+    }
+}

@@ -5,21 +5,18 @@
 
 .testimonials__avatar {
     background: #53354a;
-    img {
-        width: 950px;
-    }
+    // img {
+    //     width: 950px;
+    // }
 }
 
 .testimonials__description {
     padding: 110px 0 0 85px;
-    width: 100%;
-    max-width: 950px;
 
     color: #fff;
     background: #53354a;
     p {
         padding-bottom: 40px;
-        max-width: 540px;
 
         font-family: "Cardo Italic";
         font-size: 36px;
