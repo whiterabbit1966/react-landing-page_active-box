@@ -2,12 +2,14 @@
 
 ## &#x1F4D8; About project
 
+### [You can check out the demo.](https://nikitababko.github.io/landing-page-active-box/)
+
 ### Where and what is located (files, folders).
 
 -   Folder "src" - project's source
 -   Folder "build" - ready project
 -   File "webpack.config.js" - main config
--   Folder "webpack" - this storage place for "postcss.config.js"
+-   File "postcss.config.js" - plugin postcss
 
 &#x1F534; You can also see the used dependencies in "package.json"
 
